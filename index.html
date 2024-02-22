@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Jennifer Andrea Salas Medina</h1>
+    </header>
+    <div class="centrado">
+        <img src="./Contenidos/Jennifer.png" alt="Descripción de la imagen">
+    </div>
+    <section>
+        <h2>¿Quien soy?</h2>
+        <p>¡Soy estudiante de ingeniería multimedia, fusionando tecnología y creatividad para crear 
+            experiencias digitales impactantes. Apasionado por el diseño visual y la narrativa digital, 
+            estoy comprometido con la innovación y aspirando a contribuir con soluciones creativas que 
+            nspiren y entretengan a las audiencias.</p>
+    </section>
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Senderismo</li>
+            <li>Lectura</li>
+            <li>Cocinar</li>
+            <li>Jugar videojuegos</li>
+
+
+
+        </ul>
+    </section>
+    <section>
+        <h2>Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QXY7c4ffI48?si=x_GtDAIjSLMSJEy8" 
+         frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section>
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="./Contenidos/Eladio Carrión - Fé, Cojones y Paciencia (Visualizer) _ SOL MARÍA.mp3 Carrión - Fé, Cojones y Paciencia (Visualizer) _ SOL MARÍA.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+    <section>
+        <h2>Formulario de Consulta</h2>
+        <form action="enviar_consulta.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="motivo">Motivo de consulta:</label><br>
+            <textarea id="motivo" name="motivo" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section>
+        <h2>Redes Sociales</h2>
+        <tabla>
+            <tr>
+                <th>Red Social</th>
+                <th>URL</th>
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td><a href="https://www.facebook.com/profile.php?id=100015871270094"><img src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook"></a></td>
+            </tr>
+            <tr>
+                <td>Instagram</td>
+                <td><a href="https://www.instagram.com/jennifermedina314?igsh=eXh1bnR6M2p3N3c0"><img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg"></a></td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>
